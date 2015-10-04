@@ -26,3 +26,17 @@ gulp.src(srcFiles)
     .pipe(someOtherPlugin())
     .pipe(anybar());
 ```
+
+It is also possible to start and quit the AnyBar.app in the Gulpfile.
+
+```javascript
+gulp.task('watch', function () {
+    anybar.start();
+
+    // some watchers and stuff
+});
+
+process.on('SIGINT',function(){
+    anybar.quit({}, function () {process.exit(); });
+});
+```
