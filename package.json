@@ -1,6 +1,6 @@
 {
   "name": "gulp-anybar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gulp pluign for AnyBar.app",
   "main": "index.js",
   "scripts": {
