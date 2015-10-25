@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "anybar": "^1.0.0",
+    "through2": "^2.0.0"
+  },
   "author": "Florian Eckerstorfer",
   "license": "MIT"
 }
